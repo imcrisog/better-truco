@@ -1,0 +1,234 @@
+{
+    "spain": [
+        {
+            "id": 0,
+            "name": "4 de Basto",
+            "type": 0
+        },
+        {
+            "id": 1,
+            "name": "4 de Copa",
+            "type": 0
+        },
+        {
+            "id": 2,
+            "name": "4 de Espada",
+            "type": 0
+        },
+        {
+            "id": 3,
+            "name": "4 de Oro",
+            "type": 0
+        },
+        
+
+
+        {
+            "id": 4,
+            "name": "5 de Basto",
+            "type": 1
+        },
+        {
+            "id": 5,
+            "name": "5 de Copa",
+            "type": 1
+        },
+        {
+            "id": 6,
+            "name": "5 de Espada",
+            "type": 1
+        },
+        {
+            "id": 7,
+            "name": "5 de Oro",
+            "type": 1
+        },
+
+
+
+        {
+            "id": 8,
+            "name": "6 de Basto",
+            "type": 2
+        },
+        {
+            "id": 9,
+            "name": "6 de Copa",
+            "type": 2
+        },
+        {
+            "id": 10,
+            "name": "6 de Espada",
+            "type": 2
+        },
+        {
+            "id": 11,
+            "name": "6 de Oro",
+            "type": 2
+        },
+
+
+
+        {
+            "id": 12,
+            "name": "7 de Basto",
+            "type": 3
+        },
+        {
+            "id": 13,
+            "name": "7 de Copa",
+            "type": 3
+        },
+
+
+
+        {
+            "id": 14,
+            "name": "10 de Basto",
+            "type": 4
+        },
+        {
+            "id": 15,
+            "name": "10 de Copa",
+            "type": 4
+        },
+        {
+            "id": 16,
+            "name": "10 de Espada",
+            "type": 4
+        },
+        {
+            "id": 17,
+            "name": "10 de Oro",
+            "type": 4
+        },
+
+
+
+        {
+            "id": 18,
+            "name": "11 de Basto",
+            "type": 5
+        },
+        {
+            "id": 19,
+            "name": "11 de Copa",
+            "type": 5
+        },
+        {
+            "id": 20,
+            "name": "11 de Espada",
+            "type": 5
+        },
+        {
+            "id": 21,
+            "name": "11 de Oro",
+            "type": 5
+        },
+
+
+
+        {
+            "id": 22,
+            "name": "12 de Basto",
+            "type": 6
+        },
+        {
+            "id": 23,
+            "name": "12 de Copa",
+            "type": 6
+        },
+        {
+            "id": 24,
+            "name": "12 de Espada",
+            "type": 6
+        },
+        {
+            "id": 25,
+            "name": "12 de Oro",
+            "type": 6
+        },
+
+
+
+        {
+            "id": 26,
+            "name": "1 de Copa",
+            "type": 7
+        },
+        {
+            "id": 27,
+            "name": "1 de Oro",
+            "type": 7
+        },
+
+
+
+        {
+            "id": 28,
+            "name": "2 de Espada",
+            "type": 8
+        },
+        {
+            "id": 29,
+            "name": "2 de Oro",
+            "type": 8
+        },
+        {
+            "id": 30,
+            "name": "2 de Espada",
+            "type": 8
+        },
+        {
+            "id": 31,
+            "name": "2 de Oro",
+            "type": 8
+        },
+
+
+
+        {
+            "id": 32,
+            "name": "3 de Espada",
+            "type": 9
+        },
+        {
+            "id": 33,
+            "name": "3 de Oro",
+            "type": 9
+        },
+        {
+            "id": 34,
+            "name": "3 de Espada",
+            "type": 9
+        },
+        {
+            "id": 35,
+            "name": "3 de Oro",
+            "type": 9
+        },
+
+
+
+        {
+            "id": 36,
+            "name": "7 de Oro",
+            "type": 10
+        },
+        {
+            "id": 37,
+            "name": "7 de Espada",
+            "type": 11
+        },
+        {
+            "id": 38,
+            "name": "1 de Basto",
+            "type": 12
+        },
+        {
+            "id": 39,
+            "name": "1 de Espada",
+            "type": 15
+        }
+    ]
+}
