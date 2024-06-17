@@ -1,11 +1,15 @@
 import actioncable from "actioncable";
 import { useEffect, useState } from "react";
 
+import Card from "./Components/Card";
+
 type card = {
     id: number,
     name: string,
     type: number,
-    who: string|null
+    who: string|null,
+    mx: number,
+    my: number
 }
 
 function App() {
@@ -102,12 +106,13 @@ function App() {
 
         const res = await reponse.json();
 
+        console.log(res)
+
         setCards(res['data'][2])
         setNamer(res['data'][3])
     }
 
-    const handleSendCard = (e: any) => {
-        console.log(e.target.value)
+    const handleSendCard = (card: card) => {
 
         fetch("http://localhost:3000/room/send", {
             method: "POST",
@@ -115,17 +120,18 @@ function App() {
                 "content-type": "application/json"
             },
             body: JSON.stringify({
-                card: e.target.value,
+                card: card.id,
                 room: room,
                 who: username
             })
         })
 
-        setCards(cards.filter(c => c.id !== parseInt(e.target.value)))
+        setCards(cards.filter(c => c.id !== card.id))
     }   
 
     return (
         <div>
+
             <div className="flex flex-wrap gap-5">
                 <input className="border-2 border-black" type="text" value={username} onChange={(e: any) => setUsername(e.target.value)} />
 
@@ -150,24 +156,21 @@ function App() {
             } */}
 
             <h1> Tus cartas ({namer}) </h1>
+            <div className="flex gap-1">
             {
-                cards.map((card, index) => (
-                    <div key={index}>
-                        <button type="button" onClick={handleSendCard} value={card.id}> {card.name} </button>
-                    </div>
-                ))
+                cards.map(
+                    (card, index) => <button key={index} onClick={() => handleSendCard(card)}><Card mx={card.mx} my={card.my} /></button>
+                )
             }
+            </div>
 
             <h1 className="my-5"> Cartas en mesa </h1>
-
+            <div className="flex gap-1">
             {
-                onTable.map((card, index) => (
-                    <div key={index}>
-                        <span> ({card.who}) {card.name} </span>
-                    </div>
-                ))
+                onTable.map((card, index) => <Card key={index} mx={card.mx} my={card.my} />)
             }
-        </div>
+            </div>
+        </div> 
     )
 }
 

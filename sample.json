@@ -3,22 +3,30 @@
         {
             "id": 0,
             "name": "4 de Basto",
-            "type": 0
+            "type": 0,
+            "mx": 3,
+            "my": 3
         },
         {
             "id": 1,
             "name": "4 de Copa",
-            "type": 0
+            "type": 0,
+            "mx": 3,
+            "my": 1
         },
         {
             "id": 2,
             "name": "4 de Espada",
-            "type": 0
+            "type": 0,
+            "mx": 3,
+            "my": 2
         },
         {
             "id": 3,
             "name": "4 de Oro",
-            "type": 0
+            "type": 0,
+            "mx": 3,
+            "my": 0
         },
         
 
@@ -26,22 +34,30 @@
         {
             "id": 4,
             "name": "5 de Basto",
-            "type": 1
+            "type": 1,
+            "mx": 4,
+            "my": 3
         },
         {
             "id": 5,
             "name": "5 de Copa",
-            "type": 1
+            "type": 1,
+            "mx": 4,
+            "my": 1
         },
         {
             "id": 6,
             "name": "5 de Espada",
-            "type": 1
+            "type": 1,
+            "mx": 4,
+            "my": 2
         },
         {
             "id": 7,
             "name": "5 de Oro",
-            "type": 1
+            "type": 1,
+            "mx": 4,
+            "my": 0
         },
 
 
@@ -49,22 +65,30 @@
         {
             "id": 8,
             "name": "6 de Basto",
-            "type": 2
+            "type": 2,
+            "mx": 5,
+            "my": 3
         },
         {
             "id": 9,
             "name": "6 de Copa",
-            "type": 2
+            "type": 2,
+            "mx": 5,
+            "my": 1
         },
         {
             "id": 10,
             "name": "6 de Espada",
-            "type": 2
+            "type": 2,
+            "mx": 5,
+            "my": 2
         },
         {
             "id": 11,
             "name": "6 de Oro",
-            "type": 2
+            "type": 2,
+            "mx": 5,
+            "my": 0
         },
 
 
@@ -72,12 +96,16 @@
         {
             "id": 12,
             "name": "7 de Basto",
-            "type": 3
+            "type": 3,
+            "mx": 6,
+            "my": 3
         },
         {
             "id": 13,
             "name": "7 de Copa",
-            "type": 3
+            "type": 3,
+            "mx": 6,
+            "my": 1
         },
 
 
@@ -85,22 +113,30 @@
         {
             "id": 14,
             "name": "10 de Basto",
-            "type": 4
+            "type": 4,
+            "mx": 9,
+            "my": 3
         },
         {
             "id": 15,
             "name": "10 de Copa",
-            "type": 4
+            "type": 4,
+            "mx": 9,
+            "my": 1
         },
         {
             "id": 16,
             "name": "10 de Espada",
-            "type": 4
+            "type": 4,
+            "mx": 9,
+            "my": 2
         },
         {
             "id": 17,
             "name": "10 de Oro",
-            "type": 4
+            "type": 4,
+            "mx": 9,
+            "my": 0
         },
 
 
@@ -108,22 +144,30 @@
         {
             "id": 18,
             "name": "11 de Basto",
-            "type": 5
+            "type": 5,
+            "mx": 10,
+            "my": 3
         },
         {
             "id": 19,
             "name": "11 de Copa",
-            "type": 5
+            "type": 5,
+            "mx": 10,
+            "my": 1
         },
         {
             "id": 20,
             "name": "11 de Espada",
-            "type": 5
+            "type": 5,
+            "mx": 10,
+            "my": 2
         },
         {
             "id": 21,
             "name": "11 de Oro",
-            "type": 5
+            "type": 5,
+            "mx": 10,
+            "my": 0
         },
 
 
@@ -131,22 +175,30 @@
         {
             "id": 22,
             "name": "12 de Basto",
-            "type": 6
+            "type": 6,
+            "mx": 11,
+            "my": 3
         },
         {
             "id": 23,
             "name": "12 de Copa",
-            "type": 6
+            "type": 6,
+            "mx": 11,
+            "my": 1
         },
         {
             "id": 24,
             "name": "12 de Espada",
-            "type": 6
+            "type": 6,
+            "mx": 11,
+            "my": 2
         },
         {
             "id": 25,
             "name": "12 de Oro",
-            "type": 6
+            "type": 6,
+            "mx": 11,
+            "my": 0
         },
 
 
@@ -154,58 +206,78 @@
         {
             "id": 26,
             "name": "1 de Copa",
-            "type": 7
+            "type": 7,
+            "mx": 0,
+            "my": 1
         },
         {
             "id": 27,
             "name": "1 de Oro",
-            "type": 7
+            "type": 7,
+            "mx": 0,
+            "my": 0
         },
 
 
 
         {
             "id": 28,
-            "name": "2 de Espada",
-            "type": 8
+            "name": "2 de Basto",
+            "type": 8,
+            "mx": 1,
+            "my": 3
         },
         {
             "id": 29,
-            "name": "2 de Oro",
-            "type": 8
+            "name": "2 de Copa",
+            "type": 8,
+            "mx": 1,
+            "my": 1
         },
         {
             "id": 30,
             "name": "2 de Espada",
-            "type": 8
+            "type": 8,
+            "mx": 1,
+            "my": 2
         },
         {
             "id": 31,
             "name": "2 de Oro",
-            "type": 8
+            "type": 8,
+            "mx": 1,
+            "my": 0
         },
 
 
 
         {
             "id": 32,
-            "name": "3 de Espada",
-            "type": 9
+            "name": "3 de Basto",
+            "type": 9,
+            "mx": 2,
+            "my": 3
         },
         {
             "id": 33,
-            "name": "3 de Oro",
-            "type": 9
+            "name": "3 de Copa",
+            "type": 9,
+            "mx": 2,
+            "my": 1
         },
         {
             "id": 34,
             "name": "3 de Espada",
-            "type": 9
+            "type": 9,
+            "mx": 2,
+            "my": 2
         },
         {
             "id": 35,
             "name": "3 de Oro",
-            "type": 9
+            "type": 9,
+            "mx": 2,
+            "my": 0
         },
 
 
@@ -213,22 +285,30 @@
         {
             "id": 36,
             "name": "7 de Oro",
-            "type": 10
+            "type": 10,
+            "mx": 6,
+            "my": 0
         },
         {
             "id": 37,
             "name": "7 de Espada",
-            "type": 11
+            "type": 11,
+            "mx": 6,
+            "my": 2
         },
         {
             "id": 38,
             "name": "1 de Basto",
-            "type": 12
+            "type": 12,
+            "mx": 0,
+            "my": 3
         },
         {
             "id": 39,
             "name": "1 de Espada",
-            "type": 15
+            "type": 15,
+            "mx": 0,
+            "my": 2
         }
     ]
 }
